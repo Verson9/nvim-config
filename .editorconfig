@@ -1,0 +1,11 @@
+[*.md]
+indent_style = tab
+indent_size = 4
+
+[*.lua]
+indent_style = tab
+indent_size = 4
+
+[Makefile]
+indent_style = tab
+indent_size = 4

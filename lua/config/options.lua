@@ -3,7 +3,9 @@ vim.opt.shiftwidth = 4 -- Amount to indent with << and >>
 vim.opt.tabstop = 4 -- How many spaces are shown per Tab
 vim.opt.softtabstop = 4 -- How many spaces are applied when pressing Tab
 
-vim.opt.smarttab = true
+vim.opt.expandtab = false
+-- Replace spaces with tabs :%retab!
+--vim.opt.smarttab = true
 vim.opt.smartindent = true
 vim.opt.autoindent = true -- Keep identation from previous line
 
@@ -41,13 +43,12 @@ vim.opt.splitbelow = true
 --  See `:help 'list'`
 --  and `:help 'listchars'`
 vim.opt.list = true
-vim.opt.listchars = { 
-    tab = "» ", 
-    trail = "·", 
-    nbsp = "␣", 
-    eol = "¬" 
+vim.opt.listchars = {
+	tab = "» ",
+	trail = "·",
+	nbsp = "␣",
+	eol = "¬",
 }
 
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 5
-

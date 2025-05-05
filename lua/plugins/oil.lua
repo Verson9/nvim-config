@@ -30,13 +30,13 @@ return {
 			float = {
 				padding = 10,
 			},
-			vim.api.nvim_create_autocmd("VimEnter", {
-				callback = function()
-					if vim.fn.argc() == 1 and vim.fn.isdirectory(vim.fn.argv(0)) == 1 then
-						require("oil").open(vim.fn.getcwd()) -- Open Oil for the directory
-					end
-				end,
-			}),
+			-- vim.api.nvim_create_autocmd("VimEnter", {
+			-- 	callback = function()
+			-- 		if vim.fn.argc() == 1 and vim.fn.isdirectory(vim.fn.argv(0)) == 1 then
+			-- 			require("oil").open(vim.fn.getcwd()) -- Open Oil for the directory
+			-- 		end
+			-- 	end,
+			-- }),
 		})
 	end,
 }

@@ -28,8 +28,6 @@ end, {
 	desc = "Format current file",
 })
 
-vim.keymap.set("n", "<C-y>", "<cmd>lua vim.lsp.buf.hover()<cr>", { desc = "Show LSP hover info" })
-
 -- LSP
 vim.keymap.set("n", "<C-y>", "<cmd>lua vim.lsp.buf.hover()<cr>", { desc = "Show LSP hover info" })
 

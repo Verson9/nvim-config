@@ -34,3 +34,7 @@ vim.keymap.set("n", "<C-y>", "<cmd>lua vim.lsp.buf.hover()<cr>", { desc = "Show 
 --  buffers
 vim.keymap.set("n", "<Tab>", "<Cmd>BufferLineCycleNext<CR>")
 vim.keymap.set("n", "<S-Tab>", "<Cmd>BufferLineCyclePrev<CR>")
+
+-- split width shortcuts
+vim.keymap.set("n", "<C-S-,>", "<C-w>>")
+vim.keymap.set("n", "<C-S-.>", "<C-w><")

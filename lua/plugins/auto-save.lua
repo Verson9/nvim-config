@@ -8,6 +8,6 @@ return {
 		-- or just leave it empty :)
 	},
 	keys = {
-		{ "<leader>tas", "<cmd>ASToggle<CR>", desc = "Toggle auto-save" },
+		{ "<leader>n", "<cmd>ASToggle<CR>", desc = "Toggle auto-save" },
 	},
 }
